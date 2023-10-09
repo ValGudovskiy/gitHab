@@ -1,0 +1,15 @@
+.aside__advert {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .aside__p {
+    color: #888888;
+    margin: 0 0 10px;
+  }
+  .aside__iframe {
+    height: 300px;
+    border: 1px dashed #888888;
+    box-sizing: border-box;
+  }
+  

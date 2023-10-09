@@ -1,0 +1,9 @@
+.img-zvezda {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+  .img-zvezda__svg{
+    height:  30px;
+
+}

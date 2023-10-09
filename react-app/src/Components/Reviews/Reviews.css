@@ -1,0 +1,23 @@
+.reviews-block__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .reviews-block__all-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .reviews-block__head {
+    display: flex;
+    gap: 10px;
+  }
+  .reviews-block__title-h2 {
+    margin: 0;
+  }
+  .reviews-block__span {
+    color: #aaaaaa;
+    font-size: 24px;
+  }
+  
+

@@ -1,0 +1,35 @@
+.buttonAddOrDeleteProduct {
+  display: inline-block;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  padding-right: 15px;
+}
+.buttonAddOrDeleteProduct_likeSvgPath-2 {
+  background-color: chocolate;
+}
+.buttonAddOrDeleteProduct:hover .buttonAddOrDeleteProduct_likeSvgPath-1,
+.buttonAddOrDeleteProduct:hover,
+.buttonAddOrDeleteProduct:hover .buttonAddOrDeleteProduct_joinSvg {
+  color: coral;
+  fill: coral;
+}
+.buttonAddOrDeleteProduct:active .buttonAddOrDeleteProduct_likeSvgPath-1,
+.buttonAddOrDeleteProduct:active,
+.buttonAddOrDeleteProduct:active .buttonAddOrDeleteProduct_joinSvg {
+  color: chocolate;
+  fill: chocolate;
+}
+
+.buttonAddOrDeleteProduct_markerJointSpan {
+  width: 25px;
+}
+.buttonAddOrDeleteProduct_svgJoin {
+  color: darkgrey;
+}
+ 
+@media (max-width: 776.9px) {
+  .buttonAddOrDeleteProduct__displayNon {
+    display: none;
+  }
+}

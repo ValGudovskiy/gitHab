@@ -1,0 +1,21 @@
+.buttonPlusMinusProduct_addProductDiv {
+    width: 80px;
+  }
+  .buttonPlusMinusProduct_addProductDiv {
+    background-color: azure;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .buttonPlusMinusProduct_countPlusButton,
+  .buttonPlusMinusProduct_countMinusButton {
+    padding: 0 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  .buttonPlusMinusProduct_countSpan {
+    padding: 0 5px;
+  }
+  
+      

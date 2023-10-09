@@ -1,0 +1,14 @@
+.contanerOldPrice__mainDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.contanerOldPrice__price-old {
+  color: #888888;
+}
+.contanerOldPrice__price-sale {
+  background: #f36223;
+  border-radius: 500px;
+  margin-left: 10px;
+  color: #ffffff;
+  padding: 4px 8px;
+}

@@ -1,0 +1,14 @@
+.pageDemonstration{
+text-decoration: none;
+}
+.productIndex{
+    padding: 50px;
+    color: chartreuse;
+}
+.productIndex_1{
+    padding: 50px;
+    color: brown;
+}
+.productIndex_nav{
+    display: flex;
+}

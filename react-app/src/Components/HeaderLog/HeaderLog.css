@@ -1,0 +1,19 @@
+.header__log {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    height: 80px;
+  }
+  .header__img_logo {
+    margin-bottom: 5px;
+  }
+  .header__title-h1 {
+    font-size: xxx-large;
+    margin: 0;
+  }
+  .header__span-red {
+    color: #ff5722;
+  }
+.header__span-black{
+  color: black;
+}

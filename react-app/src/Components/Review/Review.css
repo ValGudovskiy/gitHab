@@ -1,0 +1,32 @@
+.reviews-block__hr {
+    border: 1px dashed #888888;
+    margin: 0px 0px 0px 170px;
+  }
+  .reviews-block__hr:last-of-type{
+    display: none;
+}
+
+.reviews-block__section {
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+  }
+  .reviews-block__photo-man {
+    height: 140px;
+    border-radius: 50%;
+  }
+  .reviews-block__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .reviews-block__name-h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  .reviews-block__p {
+    margin: 0 0 10px;
+  }
+  .reviews-block__usage {
+    display: flex;
+    gap: 5px;
+  }

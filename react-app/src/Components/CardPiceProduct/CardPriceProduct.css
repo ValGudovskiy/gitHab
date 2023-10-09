@@ -1,0 +1,17 @@
+.cardPriceProduct_priceDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .cardPriceProduct_priceSpan {
+    border-radius: 5px;
+    background-color: #f52;
+    font-size: 20px;
+  }
+  .cardPriceProduct_oldPriceSpan {
+    transform-origin: center;
+    transform: rotate(12deg);
+    color: #f52;
+  }
+  

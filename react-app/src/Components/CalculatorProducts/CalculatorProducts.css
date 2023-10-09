@@ -1,0 +1,54 @@
+.calculatorProducts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+  padding: 24px 20px 20px;
+}
+.calculatorProducts_placeOrderBtn {
+  font-size: 20px;
+  width: 100%;
+}
+
+.calculatorProducts__productsSpan,
+.calculatorProducts__totalP {
+  font-size: 20px;
+  font-weight: normal;
+}
+.calculoratProducts__totalSpan,
+.calculatorProducts__productsSpan,
+.containerOldPrice__containerDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.calculatorProducts__displayNone {
+  display: none;
+}
+.calculatorProducts__order {
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(38, 177, 198, 0.3);
+  }
+.calculatorProducts__divOrderContent{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+
+  background-color: rgb(221, 237, 227);
+  opacity: 1;
+  min-height: 100px;
+  min-width: 300px;
+  border-radius: 60px;
+  padding:20px
+}

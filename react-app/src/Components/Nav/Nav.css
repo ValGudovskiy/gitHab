@@ -1,0 +1,23 @@
+
+.bread-crumbs__span {
+  display: flex;
+  flex-wrap: nowrap;
+    gap: 4px;
+    height: 35px;
+  }
+  .bread-crumbs__link-a {
+    white-space: nowrap;
+    cursor: pointer;
+    color: #008cf0;
+    text-decoration: none;
+  }
+  .bread-crumbs__link-a:hover {
+    color: #f36223;
+    cursor: pointer;
+  }
+  .bread-crumbs__link-a:active {
+    color: #a93a09;
+  }
+  .bread-crumbs{
+    display: inline-block;
+  }

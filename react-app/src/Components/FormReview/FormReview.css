@@ -1,0 +1,97 @@
+.reviews-block__error {
+  background: red;
+  position: absolute;
+  width: 100%;
+  padding: 8px 20px;
+  border: 1px solid none;
+  box-sizing: border-box;
+}
+.reviews-block__forme {
+    margin-left: 170px;
+  }
+  .reviews-block__add-review {
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+  .reviews-block__title-h3 {
+    margin: 0 0 15px;
+  }
+  .reviews-block__fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .reviews-block__label_username {
+    width: 100%;
+  }
+  .reviews-block__label{
+    position: relative;
+  }
+  .reviews-block__input_username {
+    border: 1px solid #888888;
+    width: 100%;
+    height: 49px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    font: 1em sans-serif;
+    outline: none;
+  }
+  .reviews-block__input_username:hover,
+  .reviews-block__input_username:focus {
+    border: 1px solid #000000;
+  }
+  .reviews-block__input_estimation {
+    outline: none;
+    border: 1px solid #888888;
+    width: 175px;
+    height: 49px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    font: 1em sans-serif;
+  }
+  .reviews-block__input_estimation:hover,
+  .reviews-block__input_estimation:focus {
+    border: 1px solid #000000;
+  }
+  .reviews-block__div-user {
+    margin: 0 0 30px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  .reviews-block__lable {
+    width: 100%;
+  }
+  .reviews-block__textarea {
+    outline: none;
+    border: 1px solid #888888;
+    width: 100%;
+    height: 190px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+    resize: none;
+  }
+  .reviews-block__textarea:hover,
+  .reviews-block__textarea:focus {
+    border: 1px solid #000000;
+  }
+  .reviews-block__btn {
+    background: #f36223;
+    padding: 10px 20px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+    color: #ffffff;
+  }
+  .reviews-block__btn:hover {
+    cursor: pointer;
+    background: #da4a0c;
+  }
+  .reviews-block__btn:active {
+    background-color: #a93a09;
+  }
+  .reviews-block__btn_label, .reviews-block__input_btn{
+    display: none;
+  }

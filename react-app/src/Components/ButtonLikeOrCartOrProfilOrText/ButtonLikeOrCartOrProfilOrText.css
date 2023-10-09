@@ -1,0 +1,61 @@
+.buttonAside {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  background: #f36223;
+  border-radius: 4px;
+  padding: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.buttonAside_cart {
+  width: 41px;
+  height: 39px;
+}
+.buttonAside_like-svg {
+  width: 43px;
+  height: 35px;
+}
+
+.buttonAside__svg {
+  fill: #8b8b8b;
+}
+.buttonAside:hover .buttonAside__svg {
+  fill: #da4a0c;
+}
+.buttonAside:active .buttonAside__svg {
+  fill: #a93a09;
+}
+.buttonAside-path_select {
+  fill: #f36223;
+}
+.buttonAside_joint:hover {
+  background-color: #da4a0c;
+}
+.buttonAside_joint:active {
+  background-color:  #a93a09;
+}
+.buttonAside__svgBox{stroke: #4fbf44;
+  stroke-width: 4px;}
+@media (max-width: 776.9px) {
+  .buttonAside__svgLike{
+    width: 25px;
+    height: 25px;
+  }
+  .buttonAside__svgProfil{
+    width: 25px;
+    height: 25px;
+
+  }
+  .buttonAside__svgCart{
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (max-width: 776.9px) {
+
+.buttonAside {
+gap:0;
+}
+}

@@ -1,0 +1,36 @@
+  .simpleCardProduct_link {
+    text-decoration: none;
+    color: black;
+  }
+  .simpleCardProduct_link:hover {
+    color: darkgrey;
+  }
+  .simpleCardProduct_p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .simpleCardProduct_img {
+    height: 90px;
+  }
+  .simpleCardProduct_img:hover {
+    opacity: 50%;
+  }
+  .simpleCardProduct_containerForImgDiv {
+    display: flex;
+    height: 100px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .simpleCardProduct_containerCard{
+    display: flex;
+  }
+        
+  @media (max-width: 776.9px) {
+
+  .simpleCardProduct_containerForImgDiv {
+     height: 120px;
+    min-width: 50px;
+ }
+  }

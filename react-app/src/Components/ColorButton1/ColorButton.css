@@ -1,0 +1,32 @@
+.color-block__img-color {
+    height: 60px;
+  }
+  .color-block__div-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .color-block__div-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .color-block__div-color:active {
+    border: 2px solid #a93a09;
+  }
+  .color-block__div-color:hover {
+    background-color: #eeeaea;
+  }
+  .color-block__div-color_select {
+    border: 2px solid #f36223;
+  }
+  
+  

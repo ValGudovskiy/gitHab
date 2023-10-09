@@ -1,0 +1,34 @@
+.product {
+  height: 387px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .product__img {
+    display: none;
+    margin: auto;
+  }
+  .product_black {
+    display: flex;
+  }
+  .color-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .color-block__title-h3 {
+    margin: 0;
+    flex-basis: 100%;
+    order: -1;
+  }
+  
+.product__img_height{
+  display: block;
+  height: 387px;
+width: fit-content;
+}
+.product__img_width {
+  display: block;
+  height: fit-content;
+  width: 197px;
+}

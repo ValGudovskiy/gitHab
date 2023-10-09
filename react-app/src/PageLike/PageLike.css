@@ -1,0 +1,8 @@
+.pageLike_container-btn{
+    display: flex;
+    gap: 30px;
+}
+.pageLike_cartBtn{
+     padding: 0px;
+     background: none;
+}
