@@ -38,6 +38,7 @@ def keyres(num) :
             for j in pr :
                 res +=j
         return res
+  
         
 print(keyres(23),float('inf'))
 
